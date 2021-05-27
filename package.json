@@ -2,5 +2,12 @@
   "name": "template-js",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
 }
