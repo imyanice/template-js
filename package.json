@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "clean": "prettier -w ."
+    "clean": "prettier -w .",
+    "lint": "eslint .",
+    "lint-fix":"eslint . --fix"
   },
   "dependencies": {
     "chalk": "^4.1.1",
